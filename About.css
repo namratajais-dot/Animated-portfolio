@@ -1,0 +1,100 @@
+/* Reset & base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* body {
+  background-color: #000;
+} */
+
+#AboutHead h1 {
+  color: #14cf93;
+  margin-left: 8vw;
+  margin-top: 2.5vw;
+  font-size: 8vw; /* Responsive font size */
+  animation: slideInDown 1s ease-out;
+}
+
+/* Animate the title sliding in */
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.AboutBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-evenly;
+  margin-top: 50px;
+  padding: 30px;
+  gap: 30px;
+}
+
+.AboutBody img {
+  height: 300px;
+  width: 300px;
+  border-radius: 12px;
+  transition: transform 0.5s ease, box-shadow 0.6s ease;
+  will-change: transform;
+}
+
+/* 👇 Hover Animation for image */
+.AboutBody img:hover {
+  transform: rotateZ(2deg) scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.AboutBody p {
+  max-width: 800px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  animation: fadeInUp 1.5s ease-out;
+  line-height: 1.6;
+}
+
+/* Animate paragraph with fade up effect */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVENESS: For smaller screens */
+@media (max-width: 768px) {
+  #AboutHead h1 {
+    font-size: 20vw;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .AboutBody {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .AboutBody img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .AboutBody p {
+    font-size: 1rem;
+    padding: 40px;
+  }
+}

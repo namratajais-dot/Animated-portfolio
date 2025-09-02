@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Namrata Jaiswal</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Project.css" />
+  </head>
+  <body>
+    <div id="cursor"></div>
+
+    <!-- Floating Shapes -->
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1>
+          My Wo<span class="accent">r</span>ks
+          <span style="font-size: 0.3em; color: #666">(02)</span>
+        </h1>
+        <p>
+          A collection of my recent projects showcasing creative design and
+          functional development
+        </p>
+      </section>
+
+      <!-- Projects 1 -->
+      <section class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-image">
+            <!-- Replace with your actual project screenshot -->
+            <img src="work3.png" alt="Project 1 Screenshot" />
+            <div class="project-overlay">
+              <a
+                href="#"
+                class="view-project"
+                onclick="openProject('https://bg-remover-blond-nine.vercel.app/')"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Background Remover</h3>
+            <p>
+              BG Remover is a simple and fast tool that automatically removes
+              backgrounds from images in just one click. Whether for personal
+              use, professional designs, or e-commerce, it delivers clean,
+              high-quality cutouts without the need for complex editing software
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">React.Js</span>
+              <span class="tag">Express.Js</span>
+              <span class="tag">Clerk</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">API</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://bg-remover-blond-nine.vercel.app/"
+                class="btn btn-secondary"
+                target="_blank"
+              >
+                <!-- Vercel Logo -->
+                <svg
+                  class="vercel-icon"
+                  viewBox="0 0 24 24"
+                  aria-label="Vercel"
+                  role="img"
+                >
+                  <path d="M12 3l9 15H3L12 3z" fill="currentColor" />
+                </svg>
+
+                VERCEL
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2  -->
+        <article class="project-card">
+          <div class="project-image">
+            <!-- Replace with your actual project screenshot -->
+            <img src="work1.png" alt="Project 2 Screenshot" />
+            <div class="project-overlay">
+              <a
+                href="#"
+                class="view-project"
+                onclick="openProject('https://namratajais-dot.github.io/AI-LAW-AGENT/')"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Ai Law Agent</h3>
+            <p>
+              AI LAW Bot is an AI-powered legal assistant that answers queries
+              based on Indian law in multiple languages. It helps users
+              understand their legal rights, get quick clarifications, and
+              access reliable information without the complexity of legal jargon
+            </p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">React.Js</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">Gemini API</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://namratajais-dot.github.io/AI-LAW-AGENT/"
+                class="btn btn-secondary"
+                target="_blank"
+              >
+                <svg class="github-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-image">
+            <!-- Replace with your actual project screenshot -->
+            <img src="work2.png" alt="Project 2 Screenshot" />
+            <div class="project-overlay">
+              <a
+                href="#"
+                class="view-project"
+                onclick="openProject('https://namratajais-dot.github.io/Currency_Convertor/')"
+                >View Project</a
+              >
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Currency Convertor</h3>
+            <p>
+              Currency Converter is a lightweight and user-friendly tool that
+              provides real-time currency conversion across multiple global
+              currencies. It helps users make quick and accurate financial
+              calculations with ease.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">API Integration</span>
+              <span class="tag">HTML</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://namratajais-dot.github.io/Currency_Convertor/"
+                class="btn btn-secondary"
+                target="_blank"
+              >
+                <svg class="github-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                  />
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- Back to Top -->
+      <div class="back-to-top" onclick="scrollToTop()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M18 15l-6-6-6 6"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+    </main>
+
+    <script>
+      // Custom Cursor
+      const cursor = document.getElementById("cursor");
+      let mouseX = 0;
+      let mouseY = 0;
+
+      document.addEventListener("mousemove", (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        cursor.style.left = mouseX + "px";
+        cursor.style.top = mouseY + "px";
+        cursor.classList.add("active");
+      });
+
+      // Cursor interactions
+      document.querySelectorAll("a, .project-card").forEach((element) => {
+        element.addEventListener("mouseenter", () => {
+          cursor.style.transform = "translate(-50%, -50%) scale(2)";
+          cursor.style.background = "#52e0ed";
+        });
+
+        element.addEventListener("mouseleave", () => {
+          cursor.style.transform = "translate(-50%, -50%) scale(1.5)";
+          cursor.style.background = "#14cf93";
+        });
+      });
+
+      // Project card animations on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.animation = "slideUp 0.8s ease forwards";
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll(".project-card").forEach((card) => {
+        observer.observe(card);
+      });
+
+      // Smooth scroll to top
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+
+      // Open project (you can customize this)
+      function openProject(url) {
+        window.open(url, "_blank");
+      }
+
+      // Parallax effect for floating shapes
+      window.addEventListener("scroll", () => {
+        const scrolled = window.pageYOffset;
+        const shapes = document.querySelectorAll(".floating-shape");
+
+        shapes.forEach((shape, index) => {
+          const speed = 0.5 + index * 0.2;
+          shape.style.transform = `translateY(${scrolled * speed}px)`;
+        });
+      });
+
+      // Add loading animation
+      document.addEventListener("DOMContentLoaded", () => {
+        document.body.style.opacity = "0";
+        document.body.style.transition = "opacity 0.5s ease";
+
+        setTimeout(() => {
+          document.body.style.opacity = "1";
+        }, 100);
+      });
+    </script>
+  </body>
+</html>
